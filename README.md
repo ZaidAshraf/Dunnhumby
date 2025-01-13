@@ -7,7 +7,7 @@
 -   Backend:
 	-   Open Visual Studio and click "Open a project or solution", then open the `SimpleProductManagement` folder and click  `SimpleProductManagement.sln`.
     -   Open `Package Manager Console` with the default project set to `SimpleProductManagement`.
-    -   Run `update-database` to apply database migrations.
+    -   Run `Update-Database` to apply database migrations.
     -   At the top of the Visual Studio window set the start-up item to `SimpleProductManagement` and run the backend API by clicking the green arrow next to it with `https`.
 	-   The API endpoints can be found at [https://localhost:7083/swagger/index.html](https://localhost:7083/swagger/index.html) 
 		- Here you can create a product via the HTTP Post endpoint
